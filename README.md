@@ -15,6 +15,8 @@ Lien vers le projet : https://aperbet56.github.io/digital_clock/
 - Flexbox
 - Animations CSS (@keyframes)
 - Importation de la police Orbitron|Text+Me+One
+- Page web responsive
+- Desktop first
 - Utilsation d'un normaliseur
 - JavaScript
 - Code JavaScript commenté
