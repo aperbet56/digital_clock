@@ -86,3 +86,34 @@ body {
         opacity: 0;
     }
 }
+
+/**** Responsive design ****/
+
+@media screen and (max-width: 572px) {
+    .clock {
+        width: 97%;
+        padding: 15px;
+        box-shadow: 5px 5px 10px #808080;
+    }
+
+    .clock .display {
+        padding: 20px 10px 10px;
+    }
+
+    .display .weekdays {
+        font-size: 16px;
+    }
+
+    .time__display {
+        margin: 25px 0 0 0;
+    }
+
+    .time__display .time {
+        font-size: 50px;
+    }
+
+    .time__display .format {
+        font-size: 15px;
+        margin-top: 18px;
+    }
+}
