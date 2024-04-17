@@ -2,11 +2,11 @@
 
 ## Le challenge
 
-Création d'une digital clock ayant le design d'un réveil
+Création d'une digital clock ayant le design d'un réveil.
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/digital_clock/
 
 ## Développez avec
 
