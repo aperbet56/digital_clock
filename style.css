@@ -69,8 +69,9 @@ body {
 
 .time__display .format {
     font-size: 30px;
+    font-weight: 600;
     font-family: "Text Me One", sans-serif;
-    margin-top: 32px;
+    margin-top: 30px;
     margin-left: 10px;
 }
 
