@@ -1,0 +1,87 @@
+/**** Reset ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeded;
+}
+
+.clock {
+    width: 520px;
+    padding: 40px;
+    background-color: #f7f7f7;
+    box-shadow: 10px 10px 30px #808080;
+    border-radius: 8px;
+}
+
+.clock .display {
+    padding: 40px 10px 10px;
+    border-radius: 6px;
+    background-color: #dddddd;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08) inset,
+                0 1px 1px #fafafa;
+    position: relative;
+}
+
+.display .weekdays {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Text Me One', sans-serif;
+}
+
+.weekdays span {
+    padding: 0 10px;
+    opacity: 0.2;
+}
+
+.weekdays span.active {
+    opacity: 1;
+}
+
+.display .time__display {
+    display: flex;
+    justify-content: center;
+}
+
+.time__display .time {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    letter-spacing: 3px;
+    font-family: 'Digital-7 Mono', sans-serif;
+}
+
+.time__display .format {
+    font-size: 30px;
+    font-family: 'Text Me One', sans-serif;
+    margin-top: 32px;
+    margin-left: 10px;
+}
+
+.time .dot {
+    animation: blinker 1s linear infinite;
+}
+
+/**** Animation blinker ****/
+
+@keyframes blinker {
+    25% {
+        opacity: 0;
+    }
+}
