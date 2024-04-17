@@ -42,7 +42,7 @@ body {
     font-size: 18px;
     font-weight: 600;
     text-align: center;
-    font-family: 'Text Me One', sans-serif;
+    font-family: "Text Me One", sans-serif;
 }
 
 .weekdays span {
@@ -64,18 +64,18 @@ body {
     justify-content: center;
     font-size: 80px;
     letter-spacing: 3px;
-    font-family: 'Digital-7 Mono', sans-serif;
+    font-family: "Digital-7 Mono", sans-serif;
 }
 
 .time__display .format {
     font-size: 30px;
-    font-family: 'Text Me One', sans-serif;
+    font-family: "Text Me One", sans-serif;
     margin-top: 32px;
     margin-left: 10px;
 }
 
 .time .dot {
-    animation: blinker 1s linear infinite;
+    animation: blinker 1s ease infinite;
 }
 
 /**** Animation blinker ****/
