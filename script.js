@@ -4,6 +4,7 @@ const minutesDisplay = document.querySelector(".minutes");
 const secondsDisplay = document.querySelector(".seconds");
 const format = document.querySelector(".format");
 
+// Création de la fonction displayDigitalClock qui va permettre l'affichage de l'heure, des minutes, des secondes, des jours et du format
 const displayDigitalClock = () => {
   // Création des variables
   let date = new Date();
