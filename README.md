@@ -11,7 +11,7 @@ Lien vers le projet : https://aperbet56.github.io/digital_clock/
 ## Développez avec
 
 - Utilisation des balises sémantiques HTML5
-- CSS
+- CSS3
 - Flexbox
 - Animations CSS (@keyframes)
 - Importation de la police Orbitron|Text+Me+One
